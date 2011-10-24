@@ -1,0 +1,9 @@
+Multiphase Flow
+===============
+
+This is a direct port of the multiphase flow simulation at
+http://wonderfl.net/c/qszD from ActionScript/Flash to C++/openFrameworks. I
+am currently a bit disappointed by the performance as compared to Flash.
+
+More information about openFrameworks can be found at
+http://www.openframeworks.cc/.

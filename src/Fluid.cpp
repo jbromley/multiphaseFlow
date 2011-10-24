@@ -39,8 +39,8 @@ Fluid::update()
 
     if (pourOn) {
         pour();
-        std::cout << "Frame " << count << ": " << particles.size()
-                  << " particles" << std::endl;
+        // std::cout << "Frame " << count << ": " << particles.size()
+        //           << " particles" << std::endl;
     }
 
     updateGrid();
@@ -119,8 +119,8 @@ Fluid::findNeighbors()
         if (xMax && yMax) findNeighborsInGrid(p, grid[p->gx + 1][p->gy + 1]);
         grid[p->gx][p->gy].push_back(p);
     }
-    std::cout << "Neighbors: " << neighbors.size() << ", capacity: "
-              << neighbors.capacity() << std::endl;
+    // std::cout << "Neighbors: " << neighbors.size() << ", capacity: "
+    //           << neighbors.capacity() << std::endl;
 }
 
 void
